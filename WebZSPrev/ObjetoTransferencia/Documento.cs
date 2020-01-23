@@ -10,7 +10,7 @@ namespace WebZSPrev.ObjetoTransferencia
     {
 
         public int id { get; set; }
-        public int id_cliente { get; set; }
+        public int id_processo { get; set; }
         public int id_responsavel { get; set; }
         public int id_tipo { get; set; }
         public string obs { get; set; }

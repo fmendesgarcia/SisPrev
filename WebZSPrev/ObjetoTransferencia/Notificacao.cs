@@ -11,7 +11,7 @@ namespace WebZSPrev.ObjetoTransferencia
 
         public int id { get; set; }
         public int id_usuario { get; set; }
-        public int id_cliente { get; set; }
+        public int id_processo { get; set; }
         public DateTime datacad { get; set; }
         public DateTime data { get; set; }
         public string acao { get; set; }

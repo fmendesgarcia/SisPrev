@@ -16,7 +16,7 @@ namespace WebZSPrev.ObjetoTransferencia
         public int id_tipo { get; set; }
         public int id_responsavel { get; set; }
         public int id_status { get; set; }
-        public int id_cliente { get; set; }
+        public int id_processo { get; set; }
         public string texto { get; set; }
         public int apagado { get; set; }
 

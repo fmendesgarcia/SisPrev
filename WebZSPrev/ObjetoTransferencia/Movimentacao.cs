@@ -12,7 +12,7 @@ namespace WebZSPrev.ObjetoTransferencia
         public int id { get; set; }
         public int id_tipo { get; set; }
         public int id_responsavel { get; set; }
-        public int id_cliente { get; set; }
+        public int id_processo { get; set; }
         public DateTime? datacad { get; set; }
         public DateTime? dataalt { get; set; }
         public DateTime? data { get; set; }
