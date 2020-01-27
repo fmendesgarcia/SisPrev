@@ -56,7 +56,7 @@ namespace WebZSPrev.Apresentacao
 
 
                 ObjetoTransferencia.Compromisso compromisso = new ObjetoTransferencia.Compromisso();
-                compromisso.id_cliente = Convert.ToInt32(hidcliente.Value);
+                compromisso.id_processo = Convert.ToInt32(hidcliente.Value);
 
 
                 DateTime dt;
