@@ -9,6 +9,9 @@ namespace WebZSPrev.ObjetoTransferencia
     public class Contato
     {
 
+
+        //--------------------------
+
         public int id { get; set; }
         public int id_cliente { get; set; }
         public string ddd { get; set; }
@@ -70,6 +73,10 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.AdicionarParametros("@apagado", this.apagado);
                 acesso.AdicionarParametros("@id_obs", this.id_obs);
                 acesso.AdicionarParametros("@metodo", "consultar");
+
+
+                // ------------------------
+
                 DataTable dt;
 
                 List<Contato> listaContato = new List<Contato>();

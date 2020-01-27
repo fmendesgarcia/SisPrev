@@ -33,7 +33,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.LimpaParametros();
 
                 acesso.AdicionarParametros("@id", this.id);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@id_responsavel", this.id_responsavel);
                 acesso.AdicionarParametros("@id_tipo", this.id_tipo);
                 acesso.AdicionarParametros("@obs", this.obs);
@@ -103,7 +103,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.LimpaParametros();
 
                 acesso.AdicionarParametros("@id", this.id);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_cliente", this.id_processo);
                 acesso.AdicionarParametros("@metodo", metodo);
 
                 using (DataTable dt = acesso.ExecutaConsulta(CommandType.StoredProcedure, procedure))

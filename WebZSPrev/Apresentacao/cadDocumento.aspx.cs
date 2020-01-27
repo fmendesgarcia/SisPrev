@@ -96,7 +96,7 @@ namespace WebZSPrev.Apresentacao
                     string strId = doc.manutencao("usp_manutencao_documento", "inserir");
                     FileUpload1.SaveAs(Server.MapPath("~/Documentos/") + strId + ".pdf");
 
-                    doc.id_cliente = Convert.ToInt32(hidcliente.Value);
+                    doc.id_processo = Convert.ToInt32(hidcliente.Value);
                     doc.id_tipo = Convert.ToInt32(ddlTipoDoc.SelectedValue.ToString());
                     doc.id_responsavel = Convert.ToInt32(Session["id_usuario"]);
                     doc.obs = txtObs.Text;

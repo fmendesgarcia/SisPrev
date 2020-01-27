@@ -33,7 +33,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.AdicionarParametros("@id", this.id);
                 acesso.AdicionarParametros("@id_tipo", this.id_tipo);
                 acesso.AdicionarParametros("@id_responsavel", this.id_responsavel);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@datacad", this.datacad);
                 acesso.AdicionarParametros("@dataalt", this.dataalt);
                 acesso.AdicionarParametros("@data", this.data);
@@ -64,7 +64,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.AdicionarParametros("@id", this.id);
                 acesso.AdicionarParametros("@id_tipo", this.id_tipo);
                 acesso.AdicionarParametros("@id_responsavel", this.id_responsavel);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@apagado", this.apagado);
                 acesso.AdicionarParametros("@metodo", metodo);
                 DataTable dt;
@@ -80,7 +80,7 @@ namespace WebZSPrev.ObjetoTransferencia
                         novoMovimentacao.id = Convert.ToInt32("id");
                         novoMovimentacao.id_tipo = Convert.ToInt32("id_tipo");
                         novoMovimentacao.id_responsavel = Convert.ToInt32("id_responsavel");
-                        novoMovimentacao.id_cliente = Convert.ToInt32("id_cliente");
+                        novoMovimentacao.id_processo = Convert.ToInt32("id_processo");
                         novoMovimentacao.datacad = Convert.ToDateTime("datacad");
                         novoMovimentacao.dataalt = Convert.ToDateTime("dataalt");
                         novoMovimentacao.data = Convert.ToDateTime("data");
@@ -114,7 +114,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.AdicionarParametros("@id", this.id);
                 acesso.AdicionarParametros("@id_tipo", this.id_tipo);
                 acesso.AdicionarParametros("@id_responsavel", this.id_responsavel);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@metodo", metodo);
 
                 using (DataTable dt = acesso.ExecutaConsulta(CommandType.StoredProcedure, procedure))

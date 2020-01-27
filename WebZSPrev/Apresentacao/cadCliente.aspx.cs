@@ -386,7 +386,7 @@ namespace WebZSPrev.Apresentacao
 
 
                 ObjetoTransferencia.Movimentacao movimentacao = new Movimentacao();
-                movimentacao.id_cliente = Convert.ToInt32(hidcliente.Value);
+                movimentacao.id_processo = Convert.ToInt32(hidcliente.Value);
 
 
                 DateTime dt;

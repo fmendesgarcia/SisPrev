@@ -31,7 +31,7 @@ namespace WebZSPrev.ObjetoTransferencia
 
                 acesso.AdicionarParametros("@id", this.id);
                 acesso.AdicionarParametros("@id_usuario", this.id_usuario);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@datacad", this.datacad);
                 acesso.AdicionarParametros("@data", this.data);
                 acesso.AdicionarParametros("@acao", this.acao);
@@ -72,7 +72,7 @@ namespace WebZSPrev.ObjetoTransferencia
 
                 acesso.AdicionarParametros("@id", this.id);
                 acesso.AdicionarParametros("@id_usuario", this.id_usuario);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@datacad", this.datacad);
                 acesso.AdicionarParametros("@data", this.data);
                 acesso.AdicionarParametros("@acao", this.acao);
@@ -91,7 +91,7 @@ namespace WebZSPrev.ObjetoTransferencia
 
                         novoNotificacao.id = Convert.ToInt32("id");
                         novoNotificacao.id_usuario = Convert.ToInt32("id_usuario");
-                        novoNotificacao.id_cliente = Convert.ToInt32("id_cliente");
+                        novoNotificacao.id_processo = Convert.ToInt32("id_cliente");
                         novoNotificacao.datacad = Convert.ToDateTime("datacad");
                         novoNotificacao.data = Convert.ToDateTime("data");
                         novoNotificacao.acao = Convert.ToString("acao");
@@ -123,7 +123,7 @@ namespace WebZSPrev.ObjetoTransferencia
 
                 acesso.AdicionarParametros("@id", this.id);
                 acesso.AdicionarParametros("@id_usuario", this.id_usuario);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@datacad", this.datacad);
                 acesso.AdicionarParametros("@data", this.data);
                 acesso.AdicionarParametros("@acao", this.acao);

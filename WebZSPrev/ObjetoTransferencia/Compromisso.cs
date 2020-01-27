@@ -37,7 +37,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.AdicionarParametros("@id_tipo", this.id_tipo);
                 acesso.AdicionarParametros("@id_responsavel", this.id_responsavel);
                 acesso.AdicionarParametros("@id_status", this.id_status);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_cliente", this.id_processo);
                 acesso.AdicionarParametros("@texto", this.texto);
                 acesso.AdicionarParametros("@apagado", this.apagado);
 
@@ -68,7 +68,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.AdicionarParametros("@id_tipo", this.id_tipo);
                 acesso.AdicionarParametros("@id_responsavel", this.id_responsavel);
                 acesso.AdicionarParametros("@id_status", this.id_status);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_cliente", this.id_processo);
                 acesso.AdicionarParametros("@texto", this.texto);
                 acesso.AdicionarParametros("@apagado", this.apagado);
                 acesso.AdicionarParametros("@metodo", "consultar");
@@ -88,7 +88,7 @@ namespace WebZSPrev.ObjetoTransferencia
                         novoCompromisso.id_tipo = Convert.ToInt32("id_tipo");
                         novoCompromisso.id_responsavel = Convert.ToInt32("id_responsavel");
                         novoCompromisso.id_status = Convert.ToInt32("id_status");
-                        novoCompromisso.id_cliente = Convert.ToInt32("id_cliente");
+                        novoCompromisso.id_processo = Convert.ToInt32("id_cliente");
                         novoCompromisso.texto = Convert.ToString("texto");
                         novoCompromisso.apagado = Convert.ToInt32("apagado");
 
@@ -121,7 +121,7 @@ namespace WebZSPrev.ObjetoTransferencia
                 acesso.AdicionarParametros("@id_tipo", this.id_tipo);
                 acesso.AdicionarParametros("@id_responsavel", this.id_responsavel);
                 acesso.AdicionarParametros("@id_status", this.id_status);
-                acesso.AdicionarParametros("@id_cliente", this.id_cliente);
+                acesso.AdicionarParametros("@id_processo", this.id_processo);
                 acesso.AdicionarParametros("@texto", this.texto);
                 acesso.AdicionarParametros("@apagado", this.apagado);
                 acesso.AdicionarParametros("@metodo", metodo);
